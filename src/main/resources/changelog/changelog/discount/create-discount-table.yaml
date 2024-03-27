@@ -1,0 +1,15 @@
+databaseChangeLog:
+  - changeSet:
+      id: create discount table
+      author: diyorbek2110@gmail.com
+      changes:
+        - sqlFile:
+            path: create-discount-table.sql
+            relativeToChangelogFile: true
+  - changeSet:
+      id: create parent-discount table
+      author: diyorbek2110@gmail.com
+      changes:
+        - sqlFile:
+            path: create-parent-discount-table.sql
+            relativeToChangelogFile: true
